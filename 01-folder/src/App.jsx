@@ -122,7 +122,7 @@
 // import { useState } from "react";
 
 // function App(){
-//   // const [state,UpdatedState] = useState("ByDefaultValue");
+// const [state,UpdatedState] = useState("ByDefaultValue");
 //   const [fruit,setFruit] = useState("Apple");
 //   const handleFruit = () => {
 //     setFruit("Banana");
@@ -215,7 +215,7 @@
 // Time = [02:30:28]
 // # Props in React js
 // What is Props?
-// Jab bhi ek component se dusre component me data ko transfer kana hota hai tab hum props ka use karte hain.
+// Jab bhi ek component se dusre component me data ko transfer karna hota hai tab hum props ka use karte hain.
 // Make Component
 
 // import Props from "./props"
@@ -327,7 +327,7 @@
 
 // export default App;
 
-// TIME [03:00:00]
+// 3:00:19 - React onChange Event Explained | Get Input Value in Real Time  
 // Get Input field Value
 // Make Input field.
 // Define State.
@@ -335,19 +335,49 @@
 // Display Value.
 // Clear Input field Value.
 
-// import { useState } from "react";
+import { useState } from "react";
 
-// function App() {
-//   const [val, setVal] = useState("")
-//   return (
-//     <div>
-//       <h1>Get Input field Value</h1>
-//       {/* <input type="text" onChange={()=>} placehoder="Enter User name" /> */}
-//       <input type="text" value={val} onChange={(event) => setVal(event.target.value)} placeholder="Enter user name" />
-//       <h1>{val}</h1>
-//       <button onClick={() => setVal("")}>Clear Value</button>
-//     </div>
-//   )
-// }
+function App() {
+  const [val, setVal] = useState("Pranjal Bhatnagar");
 
-// export default App
+  return (
+    <div>
+      <style>
+        {`
+          input::placeholder {
+            color: white;
+            opacity: 1;
+          }
+        `}
+      </style>
+      <h1>Get Input Field Value</h1>
+      <input
+        style={{
+          color: 'white',
+          margin: '10px',
+          padding: '5px',
+          backgroundColor: 'green'
+          
+        }}
+
+      className="input"
+      type="text"
+      value={val} //controlled input
+      onChange={(event) => setVal(event.target.value)}
+      placeholder="Enter User Name"
+       />
+      <h1>{val}</h1>
+      <button 
+      style={{
+          color: 'black',
+          margin: '10px',
+          padding: '5px',
+          borderRadius: '4px',
+      }}
+      onClick={() => setVal("")} >Clear Value</button>
+    </div>
+  );
+}
+
+export default App;
+
