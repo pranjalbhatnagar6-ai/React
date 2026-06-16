@@ -434,3 +434,17 @@
 
 // export default App;
 
+// 3:16:21 - Handle Checkboxes, Get value from checkboxes  
+// Creating Skills.jsx
+import Skills from "./skills";
+
+function App(){
+  return (
+    <div>
+      <h1>Handle Checkbox in React js</h1>
+      <Skills />
+    </div>
+  )
+}
+
+export default App;
