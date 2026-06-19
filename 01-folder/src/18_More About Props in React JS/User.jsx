@@ -7,4 +7,4 @@ function User({name = "WELCOME, NEW USER"}){
     )
 }
 
-export default User
+export default User;

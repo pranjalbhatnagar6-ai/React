@@ -11,7 +11,7 @@ function Skills() {
         console.log(skill, isChecked);
 
         if (isChecked) {
-            setSkills([...skills, skill]);
+            setSkills([...skills, skill]); //Spread operator
         } else {
             setSkills(skills.filter(s => s !== skill));
         }
@@ -19,8 +19,9 @@ function Skills() {
 
     return (
         <div>
+            <h1>Handle Checkboxes, Get value from checkboxes</h1>
             <h2>Select Your Skills</h2>
-            <input onChange={handleSkills} type="checkbox" name="html" id="html" value={"HTML"} />
+            <input onChange={handleSkills} type="checkbox" name="html" id="html" value="HTML" />
             <label htmlFor="html">HTML</label>
             <br /><br />
 
