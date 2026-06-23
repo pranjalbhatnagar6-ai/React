@@ -21,7 +21,8 @@
 // import External from "./33_External style in React/Ext";
 // import UserProfileMain from "./34_Style with CSS Modules/UserProfilemain";
 // import StyleComp from './35_React Styled Components/StyleComp';
-import UseRefHook from "./38_useRef Hook/UseRefHook";
+// import UseRefHook from "./38_useRef Hook/UseRefHook";
+import Uncontrolled from "./39_ uncontrolled component/Uncontrolled";
 
 function Learning() {
   return (
@@ -51,7 +52,8 @@ function Learning() {
       {/* <External /> */}
       {/* <UserProfileMain /> */}
       {/* <StyleComp />   */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <Uncontrolled />
     </>
   )
 }
