@@ -22,7 +22,8 @@
 // import UserProfileMain from "./34_Style with CSS Modules/UserProfilemain";
 // import StyleComp from './35_React Styled Components/StyleComp';
 // import UseRefHook from "./38_useRef Hook/UseRefHook";
-import Uncontrolled from "./39_ uncontrolled component/Uncontrolled";
+// import Uncontrolled from "./39_ uncontrolled component/Uncontrolled";
+import PassMain from "./40_pass function in component as props/passMain";
 
 function Learning() {
   return (
@@ -53,7 +54,8 @@ function Learning() {
       {/* <UserProfileMain /> */}
       {/* <StyleComp />   */}
       {/* <UseRefHook /> */}
-      <Uncontrolled />
+      {/* <Uncontrolled /> */}
+      <PassMain />
     </>
   )
 }
