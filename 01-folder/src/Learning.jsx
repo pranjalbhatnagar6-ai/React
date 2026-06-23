@@ -23,7 +23,8 @@
 // import StyleComp from './35_React Styled Components/StyleComp';
 // import UseRefHook from "./38_useRef Hook/UseRefHook";
 // import Uncontrolled from "./39_ uncontrolled component/Uncontrolled";
-import PassMain from "./40_pass function in component as props/passMain";
+// import PassMain from "./40_pass function in component as props/passMain";
+import ForwardRef from "./40b_Forward Ref/Forward_Ref";
 
 function Learning() {
   return (
@@ -55,7 +56,8 @@ function Learning() {
       {/* <StyleComp />   */}
       {/* <UseRefHook /> */}
       {/* <Uncontrolled /> */}
-      <PassMain />
+      {/* <PassMain /> */}
+      <ForwardRef />
     </>
   )
 }
