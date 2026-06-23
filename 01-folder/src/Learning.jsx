@@ -25,7 +25,8 @@
 // import Uncontrolled from "./39_ uncontrolled component/Uncontrolled";
 // import PassMain from "./40_pass function in component as props/passMain";
 // import ForwardRef from "./40b_Forward Ref/Forward_Ref";
-import UseFormStatus from "./41_useFormStatus Hook/useFormStatusHook";
+// import UseFormStatus from "./41_useFormStatus Hook/useFormStatusHook";
+import UseTrans from "./42_useTransition Hook in React/useTransition";
 
 function Learning() {
   return (
@@ -59,7 +60,8 @@ function Learning() {
       {/* <Uncontrolled /> */}
       {/* <PassMain /> */}
       {/* <ForwardRef /> */}
-      <UseFormStatus/>
+      {/* <UseFormStatus/> */}
+      <UseTrans />
     </>
   )
 }
