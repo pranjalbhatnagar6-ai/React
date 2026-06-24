@@ -26,7 +26,9 @@
 // import PassMain from "./40_pass function in component as props/passMain";
 // import ForwardRef from "./40b_Forward Ref/Forward_Ref";
 // import UseFormStatus from "./41_useFormStatus Hook/useFormStatusHook";
-import UseTrans from "./42_useTransition Hook in React/useTransition";
+// import UseTrans from "./42_useTransition Hook in React/useTransition";
+// import PureComp from "./43_Pure Component/PureComp";
+// import DerivedState from "./44_Derived State/DeriveStateMain";
 
 function Learning() {
   return (
@@ -61,7 +63,9 @@ function Learning() {
       {/* <PassMain /> */}
       {/* <ForwardRef /> */}
       {/* <UseFormStatus/> */}
-      <UseTrans />
+      {/* <UseTrans /> */}
+      {/* <PureComp/> */}
+      {/* <DerivedState /> */}
     </>
   )
 }
