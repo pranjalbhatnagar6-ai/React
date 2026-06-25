@@ -29,6 +29,7 @@
 // import UseTrans from "./42_useTransition Hook in React/useTransition";
 // import PureComp from "./43_Pure Component/PureComp";
 // import DerivedState from "./44_Derived State/DeriveStateMain";
+import LiftingState from "./45_Lifting State Up/LiftingStateUpmain";
 
 function Learning() {
   return (
@@ -66,6 +67,7 @@ function Learning() {
       {/* <UseTrans /> */}
       {/* <PureComp/> */}
       {/* <DerivedState /> */}
+      <LiftingState />
     </>
   )
 }
