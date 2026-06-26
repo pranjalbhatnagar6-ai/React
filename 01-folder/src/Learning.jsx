@@ -29,7 +29,15 @@
 // import UseTrans from "./42_useTransition Hook in React/useTransition";
 // import PureComp from "./43_Pure Component/PureComp";
 // import DerivedState from "./44_Derived State/DeriveStateMain";
-import LiftingState from "./45_Lifting State Up/LiftingStateUpmain";
+// import LiftingState from "./45_Lifting State Up/LiftingStateUpmain";
+// import UpdatingObject from "./46_Updating Objects in State/UpdatingObjects";
+// import UpdateArray from "./47_Updating Array in State/UpdatingArray";
+// import UseAction from "./48_UseActionState Hook/UseAction";
+// import UseIdMain from "./49_useId Hook/UseIdMain";
+// import Frag from "./50_fragment/fragment";
+// import CustomHook from "./51_MAking Custom Hooks/customMain"
+// import ContextApi from "./52_Context API/ContextApiMain";
+import RouterMain from "./53 React Router/RouterMain";
 
 function Learning() {
   return (
@@ -67,9 +75,19 @@ function Learning() {
       {/* <UseTrans /> */}
       {/* <PureComp/> */}
       {/* <DerivedState /> */}
-      <LiftingState />
+      {/* <LiftingState /> */}
+      {/* <UpdatingObject /> */}
+      {/* <UpdateArray /> */}
+      {/* <UseAction /> */}
+      {/* <UseIdMain /> */}
+      {/* <Frag/> */}
+      {/* <CustomHook /> */}
+      {/* <ContextApi /> */}
+      <RouterMain />
+       
     </>
   )
 }
 
 export default Learning;
+
